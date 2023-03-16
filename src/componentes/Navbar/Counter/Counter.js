@@ -19,7 +19,7 @@ const Counter = () => {
         <div>
             <br/>
             <h1>Cantidad a llevar: {count}</h1>
-            <Button callback={increment} labelñ={'+'}/>
+            <Button callback={increment} label={'+'}/>
             <Button callback={decrement} label={'-'}/>
             {/* <button onClick={increment}>+</button>
             <button onClick={decrement}>-</button> */}

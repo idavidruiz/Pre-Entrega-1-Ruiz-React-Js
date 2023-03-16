@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
        <Navbar />
-       <Counter />
+       {/* <Counter /> */}
        <ItemListContainer greeting={'¡Bienvenidos a DrumerShop!'}/>
     </div>
   ); 
