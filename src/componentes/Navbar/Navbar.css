@@ -40,14 +40,16 @@ button:hover{
 }
 
 .cart{
-    border-radius: 15px;
-    padding: 6px 12px;
+    display: flex;
+    border-radius: 20px;
+    padding: 7px 13px;
     background-color: rgba(185, 185, 185, 0.438);
     color: white;
 }
 
 .cart img{
-    height: 25px;
+    margin-right: 5px;
+    height: 24px;
 }
 
 .DrumerShop{
