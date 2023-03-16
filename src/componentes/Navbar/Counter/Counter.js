@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Button from '../Button/Button'
 
 const Counter = () => {
     const [count, setCount] = useState(0)
@@ -15,9 +16,12 @@ const Counter = () => {
 
     return (
         <div>
-            <h1>Carrito: {count}</h1>
-            <button onClick={increment}>+</button>
-            <button onClick={decrement}>-</button>
+            <br/>
+            <h1>Cantidad a llevar: {count}</h1>
+            <Button callback={increment} label={'+'}/>
+            <Button callback={decrement} label={'-'}/>
+            {/* <button onClick={increment}>+</button>
+            <button onClick={decrement}>-</button> */}
         </div>
     )
 }
