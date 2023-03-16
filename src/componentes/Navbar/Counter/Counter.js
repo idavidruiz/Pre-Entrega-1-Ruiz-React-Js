@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import Button from '../Button/Button'
 
@@ -18,7 +19,7 @@ const Counter = () => {
         <div>
             <br/>
             <h1>Cantidad a llevar: {count}</h1>
-            <Button callback={increment} label={'+'}/>
+            <Button callback={increment} labelñ={'+'}/>
             <Button callback={decrement} label={'-'}/>
             {/* <button onClick={increment}>+</button>
             <button onClick={decrement}>-</button> */}
@@ -27,4 +28,3 @@ const Counter = () => {
 }
 
 export default Counter
-

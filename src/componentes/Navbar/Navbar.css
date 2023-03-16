@@ -38,3 +38,11 @@ button:hover{
     color: gold;
     transition: 0.7s;
 }
+
+.cart{
+    color: white;
+}
+
+.DrumerShop{
+    font-size: 60px;
+}
