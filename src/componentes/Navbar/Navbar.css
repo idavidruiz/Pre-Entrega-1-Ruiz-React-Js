@@ -20,23 +20,26 @@ h1{
     color: gold;
 }
 
+h2{
+    color: white;
+}
+
 button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 14px;
-
+    
     padding: 15px 30px;
     border: none;
     background-color: transparent;
     color: white;
-    cursor: pointer;    
-    
+    cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(20, 20, 20);
     color: gold;
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 .cart{
@@ -44,12 +47,16 @@ button:hover{
     border-radius: 20px;
     padding: 7px 13px;
     background-color: rgba(185, 185, 185, 0.438);
-    color: white;
+    color: white; 
 }
 
 .cart img{
     margin-right: 5px;
     height: 24px;
+}
+
+.cart:hover{
+    cursor: pointer;
 }
 
 .DrumerShop{

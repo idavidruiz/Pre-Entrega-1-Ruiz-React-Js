@@ -1,6 +1,7 @@
 import './Navbar.css'
 import Button from './Button/Button'
 import CartWidget from '../CartWidget/CartWidget'
+import Counter from './Counter/Counter'
 
 const Navbar = () => {
     return (
@@ -10,13 +11,13 @@ const Navbar = () => {
                 {/* <button>Mapex</button>
                 <button>Pearl</button>
                 <button>Tama</button> */}
-            <Button label="Pearl" callback={() => console.log('Pearl')}/>
-            <Button label="Mapex" callback={() => console.log('Mapex')}/>
-            <Button label="Tama" callback={() => console.log('Tama')}/>
+                <Button label="Pearl" callback={() => console.log('Pearl')}/>
+                <Button label="Mapex" callback={() => console.log('Mapex')}/>
+                <Button label="Tama" callback={() => console.log('Tama')}/>
             </div>
             <CartWidget />
         </nav>
     )
 }
 
-export default Navbar   
+export default Navbar ;
